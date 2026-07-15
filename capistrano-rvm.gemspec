@@ -10,6 +10,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{RVM integration for Capistrano}
   gem.summary       = %q{RVM integration for Capistrano}
   gem.homepage      = "https://github.com/capistrano/rvm"
+  gem.metadata = { "rubygems_mfa_required" => "true" }
 
   gem.files         = `git ls-files`.split($/)
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
